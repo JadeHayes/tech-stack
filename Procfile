@@ -1,1 +1,1 @@
-web: server.py --bind 0.0.0.0:${PORT} wsgi
+web: server.py -p $PORT
