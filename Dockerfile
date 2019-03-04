@@ -10,7 +10,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY routes /app/routes
+COPY server.py /app/server.py
 COPY . /app/
 COPY __init__.py /app/__init__.py
 
